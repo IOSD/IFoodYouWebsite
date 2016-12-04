@@ -426,7 +426,7 @@ h6{font-size:20px;}
   background: #999 none repeat scroll 0 0;
 }
 .slide1-content {
-	border-left: 5px solid #fc7878;
+	border-left: 5px solid #ff9933;
 	padding-left: 35px;
 	position: absolute;
 	right: 15.3%;
@@ -1057,7 +1057,7 @@ h6{font-size:20px;}
 	color: #ff9933;
 }
 .post-details .read-more {
-	border: 2px solid #faa7a7;
+	border: 2px solid #ff9933;
 	border-radius: 5px;
 	color: #666;
 	display: inline-block;
