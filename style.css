@@ -709,12 +709,15 @@ h6{font-size:20px;}
 	font-size: 16px;
 	margin-top: 15px;
 	text-transform: uppercase;
+	text-align: center;
 }
 .menu-item-info .item-name > a {
 	color: #555;
+	text-align: center;
 }
 .menu-item-info .item-name > a:hover {
 	color: #ff9933;
+	text-align: center;
 }
 .menu-item-info .item-price {
     color: #ff9933;
