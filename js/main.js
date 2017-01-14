@@ -4,7 +4,8 @@
 /*----------------------------
 	jQuery MeanMenu
 ------------------------------ */
-	jQuery('nav#dropdown').meanmenu();	
+	jQuery('nav#dropdown').meanmenu();
+	
 	
 /*----------------------------
 	sticky
@@ -42,7 +43,7 @@
 	owl active
 ------------------------------ */  
 	$("#testimonial-carousel").owlCarousel({
-	  autoPlay: false, 
+	  autoPlay: true, 
 	  slideSpeed:2000,
 	  pagination:false,
 	  navigation:false,	  

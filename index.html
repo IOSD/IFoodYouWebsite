@@ -127,20 +127,29 @@
 			</div>
 		</header>
 
-		<!-- slider-area start -->
-		<div id="slider" class="slider-area home">
-			<div class="slider-wrap">
-				<div class="bend niceties">
-					<div id="ensign-nivoslider" class="slides">
-						<img src="img/slider/slide1-bg.jpg" alt="" title="#slider-direction-1"/>
-						<img src="img/slider/slide2-bg.jpg" alt="" title="#slider-direction-2"/>
+		<!--Carousel starts-->
+
+		<div id="slider">	
+		<div id="myCarousel" class="carousel slide slider-area home slides slider-wrap" data-ride="carousel">
+				<div class="carousel-inner slides" role="listbox">
+						<div id="ensign-nivoslider" class="slides">
+						
 					</div>
-					<!-- slider-direction-1 -->
-					<div id="slider-direction-1" class="slider-direction slide-1">
-						<!-- layer-1 -->
-						<div class="layer-1-1">
-							<img src="img/slider/slide1-img.jpg" alt="" />
+
+						<div class="item slides">
+							<img src="img/slider/slide2-bg.jpg">
 						</div>
+
+						<div class="item active ">
+							
+							<div id="ensign-nivoslider" class="slides">
+						<img src="img/slider/slide1-bg.jpg" alt="" title="#slider-direction-1"/>
+						
+					</div>
+							
+							<div class="layer-1-1">
+							   <img src="img/slider/slide1-img.jpg" alt="" />
+						    </div>
 						<div class="slide1-content">
 							<!-- layer-2 -->
 							<div class="layer-1-2">
@@ -155,18 +164,27 @@
 							<!-- layer-4 -->
 							<div class="layer-1-4">
 								<a href="#our-story" class="discover-btn">Discover More</a>
+								
 							</div>
 						</div>
-					</div>
-					<!-- slider-direction-2 -->
-					<div id="slider-direction-2" class="slider-direction slide-2"></div>
-				</div>
-			</div><!-- /.slider-wrap -->
-		</div>
-		<!-- slider-area end -->
-		
+						
+						
+						</div>
+			   </div>
 
-		<!-- our-service-area end -->
+			    <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+		</div>
+		</div>
+
+		<!--Carousel area ends-->			
 
 		<!-- our-menu-area start -->
 		<div id="our-menu" class="our-menu-area">
